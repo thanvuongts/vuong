@@ -1,0 +1,551 @@
+/* =============PC====================================================
+/* =============1600px================= */
+@media (min-width: 1440px) and (max-width: 1599px)
+{
+
+    
+}
+/* =============1440px================= */
+@media(max-width: 1366px) 
+{
+        .sale .beauty1 .ta
+            {
+                top: 40%;
+                left: 19%;
+                text-align: center;
+            }
+}
+/* =============1366px================= */
+@media(min-width: 1280px) and (max-width: 1365px)
+{
+
+    .topselling .grid
+{
+    margin-left: 10%;
+}
+    /* ==lastnew=== */
+
+
+}
+/* ==================1280<=============== */
+@media only screen and (max-width: 1280px)
+{
+    .slider .img .ct-a h2
+    {
+        font-size: 50px;
+    }
+    .newct .new1
+    {
+        width: 30%;
+    }
+}
+/* ==================1280px=========== */
+
+
+@media(min-width: 1024px) and (max-width: 1279px)
+{
+
+
+
+    
+}
+
+/* =============TABLET================================================== */
+
+/* ===mobile and tablet: with <1024px==== */
+@media only screen and (max-width: 63.9375em)
+{
+    /* ============top============= */
+
+        /* .divfind .find  {
+        display: none;
+     }
+    .divfind
+    {
+        padding: 5px;
+                margin-right: 30%;
+    } */
+
+    /* ================================ */
+        .slider .img .container {
+
+            left: 10%;
+        }
+.sale .right h2 {
+    font-size: 20px;
+}
+  .sale .beauty1 .ta h2 {
+      font-size: 20px;
+  }
+
+    /* ============ */
+
+
+}
+/* tablet: width >=740px and width <1024px */
+@media (min-width: 740px) and (max-width: 1023px)
+{
+
+
+    .logo .divlogo .divsearch
+    {
+        margin-left: 10%;
+    }
+    
+
+}
+/* ===============960px=============== */
+@media (max-width: 960px) {
+  .container ,.taq
+  {
+    width: 690px;
+  }
+.sale .right .discount .t1 h1
+        {
+            font-size: 40px;
+        }
+
+  .sale .beauty1 .ta .t2 h3 , .sale .right h3
+  {
+    font-size: 13px;
+  }
+  /* =============== */
+  .logo .divlogo .search input
+  {
+    padding: 0 10px;
+    width: auto;
+  }
+  /* ============== */
+
+        .slider .img .container h2 {
+            font-size: 30px;
+        }
+        /* === */
+                .slider .img .container {
+
+            width: 400px;
+        }
+                /*  */
+        .search2 .bt
+        {
+            width: 90%;
+        }
+        /* == */
+        .topsl h1
+        {
+            font-size: 30px;
+        }
+        .slick-next1
+        {
+            right: 0;
+        }
+        .slick-prev1
+        {
+            right: 12%;
+        }
+        .slick-arrow1
+        {
+            top: -5%;
+            font-size: 30px;
+        }
+        .design .container {
+                   display: block; 
+                }
+        .design .container .dleft , .design .container .dright
+        {
+            width: 100%;
+            text-align: center;
+        }
+         .design .container .dright ul
+        {
+            text-align: center;
+        }
+        .gird .free
+        {
+            width: 50%;
+        }
+        .gird :nth-child(3)
+        {
+            padding-left: 0;
+        }
+        .gird :nth-child(4)
+        {
+            padding-left: 16px;
+        }
+        .logo .divlogo .option select {
+            margin: 0 15px;
+        }
+        .wide .row .col
+        {
+            width: 50%;
+        }
+        .footer
+        {
+            height: auto;
+        }
+        .wide .row .c3,
+        .wide .row .c4,
+        .wide .row .c2
+
+        {
+            padding-left: 0;
+        }
+        .taq .cmt h2
+        {
+            height: 65px;   
+        }
+                .sale .beauty1 .ta
+            {
+                top: 40%;
+                left: 9%;
+ 
+            }
+    .gird .free
+{
+    padding-bottom: 20px;
+}
+.hang .img {
+    padding: 20px 0;
+    width: 33%;
+    text-align: center;
+}
+}
+
+/* ===============================mobile========================================= */
+@media (max-width: 767px)
+{
+        /* ============menu=========== */
+            .menu {
+                height: auto;
+            }
+        .menu .container
+        {
+            align-items: flex-start;
+        }
+        .menu .list 
+        {
+            padding-top: 8px;
+            align-items: flex-start;
+        }
+            .menu .others {
+                display: none;
+                flex-direction: column;
+            }
+        
+            .menu .btclick li {
+                display: block;
+                text-align: right;
+            }
+        
+            .menu .others {
+                text-align: right;
+            }
+        
+            .menu .others.show {
+                display: flex;
+            }
+
+      /* ======search===== */
+        /* .logo .divlogo .buttom-search .option, .logo .divlogo .buttom-search input  {
+            display: none;
+        } */
+
+}
+/* mobile: width <740px*/
+@media  (max-width: 739px)
+{
+    .hang .hangimg .img {
+        width: 33%;
+    }
+        .search2 .t1
+        {
+            font-size: 10px;
+        }
+          .container ,.taq
+  {
+    width: 560px;
+  }
+  /* == */
+  .slider .img .container
+  {
+    top: 6%;
+  }
+  /* .sale .right h2 {
+      font-size: 15px;
+  }
+.sale .right .discount .t1 h1
+  {
+    font-size: 25px;
+  } */
+  .sale .beauty1 .ta
+  {
+    left: 4%;
+  }
+
+
+/* ====== */
+.sale .container
+{
+    flex-wrap: wrap;
+}
+
+.sale .right img {
+    width: 123%;
+}
+.sale .right1
+{
+    padding-left: 0;
+}
+.sale .right .discount
+{
+    padding-bottom: 0%;
+}
+/* ====menu====== */
+.logo {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+.rightlogo{
+    width: 100%;
+}
+.logo .divlogo .buttom-search
+{
+
+}
+.logo .divlogo .icon
+{
+ padding: 0;
+}
+.logo .divlogo .icon a
+{
+    padding-left: 20px;
+}
+.logo .img{
+    width: auto;
+}
+.logo .divlogo .option select
+{
+    /* width: 40px; */
+}
+.logo .divlogo
+{
+    justify-content: space-between;
+}
+        /* =======search */
+        .logo .divlogo .buttom-search
+        {
+            
+
+        }
+.sale .right .discount
+{
+    margin-bottom: 0;
+}
+            .divfind .find .l2 , .divfind1 .find .l2 {
+                display: none;
+             }
+            .divfind ,.divfind1
+            {
+                padding: 5px;
+               align-items: center;
+            }
+
+.headers-mid {
+    height: auto;
+}
+             .sale .beauty1 .ta
+            {
+            top: 55%;
+                left: 18%;
+ 
+            }
+.topsl h3 {
+    font-size: 55px;
+    margin-top: -14px;
+    letter-spacing: 2px;
+}
+
+.topsl h2 {
+    font-size: 30x;
+}
+}
+/* 740-640--------------- */
+@media (min-width: 640px) and (max-width: 739px)
+{
+
+}
+/* ========640========= */
+@media (max-width: 640px)
+{
+    .container, .taq {
+            width: 400px;
+        }
+        .c-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.hang .hangimg .img {
+    width: 50%;
+    }
+        .divfind
+        {
+            margin-right: 0;
+        }
+        /*  */
+.sale .right img {
+    width: 100%;
+}
+.slick-slide img
+{
+    width: 90%;
+}
+.hang .img {
+    padding: 20px 0px;
+}
+.slider .img .container
+{
+    left: 20%;
+    top: 10%;
+}
+.design .container {
+    height: auto;
+
+}
+.logo .divlogo .search input
+{
+    width: 66%;
+}
+.logo .divlogo .search
+{
+    width: 80%;
+}
+.logo .divlogo .search input
+ {
+    width: 76%;
+}
+.logo .divlogo .option
+{
+    width: 20%;
+}
+
+.wide .row .col , .gird .free
+    {
+        width: 100%;
+    }
+        .sale .beauty1 .ta {
+            top: 51%;
+            left: 9%;
+        }
+    .newct .new1
+    {
+        padding: 0;
+    }
+            .logo .divlogo .buttom-search
+        {
+            display: none;
+                    background-color: white;
+        }
+
+        .rightlogo .btsearch {
+            display: block;
+  
+        }
+                .hotnwew h3 {
+                    font-size: 30px;
+        
+        
+                }
+        
+                .hotnwew h2 {
+                    font-size: 45px;
+                }
+}
+/* ============460================== */
+@media (max-width: 460px)
+{
+    .slider .img .container h4 a
+    {
+        font-size: 10px;
+    }
+    .container,
+        .taq {
+            width: 300px;
+        }
+    .hang .hangimg .img
+        {
+            width: 100%;
+            padding: 9px;
+            text-align: center;
+        }
+
+    .newct .new1 h3
+    {
+        font-size: 8px;
+    }
+.gird
+{
+    padding: 10px;
+}
+.taq .cmt h2 {
+    padding: 14px 12px 0 12px;
+    font-size: 18px;
+ 
+}
+.hang .img{
+    padding: 20px 0px;
+}
+.slider .img .ct-a h2
+{
+    font-size: 20px;
+}
+.slider .img .ct-a h3
+{
+    font-size: 15px;
+}
+.design .container .dright ul img {
+    padding: 0;
+    }
+        .slick-slide img
+        {
+            width: 100%;
+           
+        }
+    /* search============= */
+    /* .logo .divlogo .buttom-search
+    {
+        display: none;
+    } */
+        .headers-top .topleft .find
+        {
+            display: none;
+        }
+         .sale .beauty1 .ta {
+             top: 30%;
+            left: 4%;
+             width: 278px;
+         }
+         .slider .img .container p
+{
+    padding: 0;
+    letter-spacing: 0px;
+}
+.slider .img .container {
+    left: 10%;
+    top: 5%;
+}
+.search2 .t1
+{
+    padding: 44px 0 48px 0;
+}
+.search2 .bt {
+    height: 50px;
+    width: 92%;
+
+}
+.search2 .buttom {
+
+    margin-top: 9px;
+}
+}
+

@@ -1,0 +1,1071 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    /* letter-spacing: 2.5px; */
+
+}
+header
+{
+    max-width: 100%;
+
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+
+
+/* container======================================= */
+.container
+{
+        display: flex;
+        align-items: center;
+        width: 880px;
+        margin: auto;
+       
+}
+@media (min-width: 1366px)
+{
+    .container
+    {
+        width: 1140px;
+    }
+        .taq
+        {
+            width: 1140px;
+        }
+}
+/* ==========top=================== */
+.headers-top {
+    display: flex;
+    height: 72px;
+    background-color: #222;
+    max-width: 100%;
+    align-items: center;
+}
+
+.headers-top li {
+    font-size: 12.2px;
+    color: #fff;
+    line-height: 1.5;
+    max-width: 230px;
+}
+.headers-top .fin 
+{
+    color: rgb(156, 156, 156);
+}
+
+/*---------------top left------------------*/
+
+.headers-top .topleft{
+
+
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+
+
+}
+.headers-top .topleft1{
+
+    display: flex;
+    
+
+}
+.headers-top .topleft li i
+{
+ color: rgb(12, 168, 201);
+ border: 1px solid;
+    padding: 8.5px 10.14px;
+ font-size: 13px;
+}
+.headers-top .topleft .divfind1 li i {
+    color: rgb(12, 168, 201);
+    border: 1px solid;
+    padding: 7.5px;
+    font-size: 15px;
+}
+.headers-top .topleft .divfind1 {
+    display: flex;
+
+}
+.headers-top .topleft .divfind
+{
+    display: flex;
+
+}
+.headers-top .topleft .find
+{
+    font-weight: 500;
+}
+.headers-top .topleft li 
+{
+    padding-right: 10px;
+}
+.headers-top .topleft .find li 
+{
+    padding-right: 20px;
+}
+
+.headers-top .topleft .mail li 
+{
+    padding-right: 10px;
+}
+/*---------------top right------------------*/
+.headers-top .topright
+{
+    display: flex;
+    right: 0;
+    width: 20%;
+    justify-content: right;
+}
+.headers-top .topright select
+{
+    background-color: #222;
+    color: #baba;
+    outline: none;
+    border: none;
+    width: 90px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.headers-mid
+{
+    height: 99px;
+}
+
+/*=========================logo======================*/
+
+
+.logo
+{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+
+}
+.logo .img
+{
+    width: 25%;
+}
+.logo .img h1
+{
+    margin-top: 10px;
+}
+/* right */
+.rightlogo
+{
+     width: 75%;
+
+}
+.logo .divlogo
+{
+    display: flex;
+    font-size: 20px;
+    justify-content: right;
+
+
+}
+/* search */
+.logo .divlogo .buttom-search
+{
+    display: flex;
+    border-radius: 30px;
+        border: 1px solid;
+        height: 40px;
+        align-items: center;
+        justify-content: right;
+        border:1px solid rgb(235, 235, 235);
+      
+}
+.logo .divlogo .buttom-search .bb
+{
+    display: flex;
+
+}
+.logo .divlogo .search
+{
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+.logo .divlogo .search i
+{
+    font-size: 20px;
+}
+.logo .divlogo .search input
+{
+
+    padding: 0 18px;
+    outline: none;
+    border: none;
+    width: 343px;
+    height: 20px;
+    border-left: 1px solid rgb(186, 186, 186);
+    font-weight: 500;
+    color: rgb(143, 143, 143);
+}
+.logo .divlogo .search input::placeholder
+{
+ color: rgb(143, 143, 143);
+ font-weight: 500;
+ letter-spacing: -0.4px;
+}
+.logo .divlogo .option select
+{
+margin: 7px 42px 0 18px;
+    outline: none;
+    border: none;   
+    font-weight: 500;
+    color: rgb(143, 143, 143);
+    letter-spacing: -0.7px;
+}
+.logo .divlogo .search button
+{
+    color: white;
+    width: 55px;
+    height: 38px;
+    border-radius: 0 30px 30px 0;
+    border: none;
+    background-color: rgb(12, 168, 201);
+}
+.logo .divlogo .icon
+{
+  display: flex;
+
+
+}
+.logo .divlogo .icon1 {
+    display: flex;
+    position: relative;
+}
+.logo .divlogo .icon1 p {
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    width: 17px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: -18px ;
+}
+.logo .divlogo .icon a
+{
+    font-size: 25px;
+    margin-left: 20px;
+    padding-right: 6px;
+    color: rgb(12, 168, 201);
+}
+/*  */
+.rightlogo
+{
+        display: block;
+}
+.rightlogo .btsearch 
+{
+    color: rgb(12, 168, 201);
+    font-size: 20px;
+    display: none;
+}
+
+/* ==================menu================== */
+.menu
+{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(12, 168, 201);
+    margin-top: 1px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.menu .list
+{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    width: 30%;
+
+}
+
+.menu .list 
+{
+    color: white;
+    font-size: 15px;
+    align-items: center;
+}
+.menu .btclick li 
+{
+    font-size: 25px;
+    color: white;
+    display: none;
+}
+.menu .list i {
+    font-size: 25px;
+}
+.menu .list li {
+    padding: 0 19px;
+}
+.menu nav {
+    width: 70%;
+}
+
+.menu .others
+{
+    display: flex;
+        justify-content: right;
+}
+.menu .others li{
+    padding-left: 7.5%;
+}
+.menu .others li a
+{
+    font-size: 14px;
+    color: white;
+}
+.menu .others li :hover
+{
+    color: aqua;
+}
+/* ============slider================= */
+.slider .img img
+{
+    width: 100%;
+}
+.slick-prev{
+
+    left: 20px;
+
+
+}
+/* .section-slider .slick-prev ::before
+{
+    width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-left: 100px solid red;
+        border-bottom: 50px solid transparent;
+    
+} */
+.slick-next{
+    right: 20px;
+
+
+}
+.slick-arrow
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    z-index: 5;
+    background-color: white;
+}
+.slick-arrow:hover
+{
+    background-color: rgb(12, 168, 201);
+    color: white;
+}
+.slider .img
+{
+position: relative;
+}
+.slider .img .container
+{
+    position: absolute;
+    top: 28.5%;
+    left: 20.3%;
+}
+
+.slider .img .container h2
+{
+    font-size: 68px;
+    letter-spacing: 2.5px;
+    line-height: 1.35;
+}
+.slider .img .container p
+{
+    color: rgb(186, 186, 186);
+    padding: 2.8% 0 7.0% 0;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+}
+.slider .img .container h4 a
+{
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 2px black solid;
+
+}
+.slider .img .container h4 a:hover {
+    color: black;
+    border-bottom: 2px rgb(12, 168, 201) solid;
+}
+.slider .img .container h2 strong
+{
+color: rgb(12, 168, 201);
+}
+/*  */
+
+/* ==================gird========================= */
+.gird
+{
+    margin: auto;
+    padding: 60px 0;
+}
+.gird .free
+{
+    display: flex;
+    width: 25%;
+}
+.gird :nth-child(2)
+{
+    padding-left: 5px;
+}
+.gird :nth-child(3) {
+    padding-left: 13px;
+}
+.gird :nth-child(4) {
+    padding-left: 28px;
+}
+.gird .free img
+{
+    height: 40px;
+    padding-right: 17px;
+}
+.gird .free .g1
+{
+    width: 100%;
+
+}
+.gird .free h2{
+    font-size: 16px;
+    
+}
+.gird .free h3{
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+    width: 100%;
+    padding-left: 0 !important;
+    font-weight: 500;
+} 
+.gird .row 
+{
+        display: flex;
+            width: 100%;
+            /* justify-content: space-between; */
+}
+
+/* =================sale============== */
+.sale
+{
+    display: flex ;
+}
+.sale .beauty1
+{
+    position: relative;
+
+}
+.sale .beauty1 img 
+{
+    width: 100%;
+}
+.sale .beauty1 .ta
+{
+    
+    position: absolute;
+    top: 62%;
+    left: 25%;
+    width: 330px;
+}
+.sale .beauty1 .ta .t1
+{
+    width: 269px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.sale .beauty1 .ta .t1-a
+{
+    width: 60px;
+    height: 62px;
+    padding: 10px;
+    border: 1px white solid;
+    background-color: white;
+    text-align: center;
+}
+
+.sale .beauty1 .ta .t1-a h3
+{
+    color: rgb(12, 168, 201);
+    font-size: 21px;
+
+}
+.sale .beauty1 .ta .t1-a h4
+{
+    font-size: 12px;
+        line-height: 0px;
+}
+.sale .beauty1 .ta .t2 h3
+{
+    color: rgb(143, 143, 143);
+    text-align: center;
+        line-height: 0.9;
+            font-size: 18px;
+            font-weight: 500;
+}
+
+.sale .beauty1 .ta .t2 h3 strong{
+
+    color: rgb(12, 168, 201);
+}
+.sale .beauty1 .ta h2
+{
+ font-size: 30px;   
+letter-spacing: 0.6px;
+}
+.sale .beauty1 .ta .t2
+{
+    padding-top: 20px;
+}
+/* ======= */
+
+.sale .right
+{     
+
+}
+.sale .right1
+{
+    padding-left: 30px;
+}
+.sale .right .discount
+{
+    position: relative;
+    margin-bottom: 4.5%;    
+}
+.sale .right img
+{
+ width: 100%;
+}
+.sale .right .discount .t1
+{
+    position: absolute;
+    top: 22%;
+    left: 6%;
+    line-height: 1.02;
+
+}
+.sale .right .discount .t1 h1
+{
+    color: rgb(12, 168, 201);
+    font-size: 60px;
+}
+.sale .right h2
+{
+    font-size: 25px;
+}
+.sale .right h3
+{
+    font-size: 18px;
+    color: rgb(143, 143, 143);
+    padding-top: 9px;
+    font-weight: 500;
+}
+.sale .right .sale1 
+{
+    position: relative;
+
+}
+.sale .right .sale1 .t1{
+    position: absolute;
+    top: 33%;
+    left: 7%;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+}
+.sale .right h4 {
+    font-size: 29px;
+}
+.sale .right h5 {
+    font-size: 18px;
+    color: rgb(143, 143, 143);
+    font-weight: 500;
+    letter-spacing: -0.3px  ;
+}
+.sale .right .sale1 .t1 h5 strong
+{
+    color: rgb(12, 168, 201);
+}
+
+/* ============selling================= */
+.topselling
+{
+    padding-bottom: 7px;
+}
+.topsl 
+{
+    margin-top: 4.2%;
+    font-size: 21px;
+    position: relative;
+
+}
+.topsl h3 {
+    position: absolute;
+        font-size: 84px;
+        color: rgb(245, 245, 245);
+        z-index: -1;
+        margin-top: -31px;
+        letter-spacing: 6px;
+}
+.topsl h2
+{
+    font-size: 44px;
+    font-weight: 600;
+}
+.taq 
+{
+width: 880px;
+margin-top: 4.5%;
+
+}
+.taq a
+{
+    padding-bottom: 40px;
+}
+.taq img
+{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+ .taq .cmt h2
+{
+    margin-top: -10px;
+    padding: 0px 40px 0 40px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    /* ===...=== */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.taq .cmt
+{
+    padding-top: 10px;
+}
+.taq .cmt h2:hover
+{
+    color: rgb(12, 168, 201);
+}
+.taq .cmt li h3
+{
+
+    display: flex;
+
+}
+.taq button i
+{
+    font-size: 40px;
+}
+.taq .cmt li h3 p
+{
+    padding: 0 7% 0 8%;
+    color: rgb(186, 186, 186);    
+    text-decoration: line-through;
+}
+
+.taq .cmt h3
+{
+text-align: center;
+color: rgb(12, 168, 201);
+        font-size: 14px;
+        padding: 6px 0;
+}
+/* == */
+
+.slick-prev1{
+
+    right: 3%;
+}
+.slick-next1{
+    right: -1%;
+
+}
+.slick-arrow1
+{
+    position: absolute;
+    top: -10%;
+    transform: translateY(-50%);
+    border: none;
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    z-index: 5;
+    background-color: white;
+}
+.slick-arrow1:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 168, 201);
+}
+
+/* ==============new================== */
+.container-1
+{
+    display: flex;
+    width: 100%; 
+        padding-top: 33px;
+        padding-left: 13px;
+
+}
+
+.hotnwew
+{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    
+}
+.hotnwew h3
+{
+    position: absolute;
+        margin-top: 26px;
+        font-size: 45px;
+
+        
+}
+.hotnwew h2
+{
+        color: rgb(236, 236, 236);
+        font-size: 80px;
+        letter-spacing: 11px;
+}
+.newct
+{
+    padding: 71px 0 0px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 661px;
+    
+}
+.newct b
+.newct .new1
+{
+   padding-top: 24px;
+   padding-right: 12px;
+   padding-left: 13px;
+
+}
+.newct .new1 h2
+{
+    width: 90%;
+    font-size: 16px;
+    padding: 23px 0 10px 0;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+    letter-spacing: 0.5px;
+    
+}
+.newct .new1 h2:hover
+{
+    color: rgb(12, 168, 201);
+}
+/* .newct .new1 img 
+{
+    width: 100%;
+} */
+.newct .new1 h3
+{
+    display: flex;
+    font-size: 12px;
+    color: rgb(186, 186, 186);
+    letter-spacing: 0.5px;
+}
+.newct .new1 h3 p {
+    color: rgb(12, 168, 201);
+    margin-left: 3px;
+}
+@media (min-width: 1366px) {
+.new .container {
+        width: 1170px;
+    }
+
+    .taq {
+        width: 1140px;
+    }
+    .container-1
+    {
+        width: 1170px;
+    }
+}
+@media (max-width: 1366px) {
+
+    .newct .new1 img {
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .newct .new1 h2
+    
+    {
+        font-size: 13px;
+        padding: 23px 0 0px 0;
+    }
+}
+/* ==================search============= */
+.search2
+{
+    color: white;
+    height: 400px;
+    background-color: rgb(34, 34, 34);
+
+    
+}
+.search2 .t1
+{
+    font-size: 15px;
+   text-align: center;
+   padding: 92px 0 48px 0;
+   line-height: 46px;
+   letter-spacing: 1px;
+
+}
+.search2 .t1 h2
+{   
+    color: rgb(186, 186, 186);
+    font-size: 15px;
+    letter-spacing: -0.3px;
+}
+
+.search2 .bt 
+{
+    margin: auto;
+    height: 70px;
+    background-color: white;
+    width: 40%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.search2 .input
+{
+    width: 77%;
+    padding: 0 31px;
+}
+.search2 input
+{   
+    font-size: 13px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.search2 .buttom
+{
+    width: 20%; 
+    height: 100%;
+    margin-top: 12px;
+
+}
+.search2 button
+{
+
+    width: 110%;
+    height: 83%;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(12, 168, 201);
+        font-size: 15px;
+            letter-spacing: 1.2px;
+    
+}
+
+
+/* ========================hang============ */
+
+.hangimg
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.hang .img
+{
+    padding: 58px 0 52px 0;
+    margin: auto;
+}
+@media (min-width: 1600px){
+    .hangimg :nth-child(1) {
+            margin: 0 15px;
+        }
+    
+        .hangimg :nth-child(2) {
+            margin-left: 62px;
+        }
+    
+        .hangimg :nth-child(3) {
+            margin-left: 54px;
+        }
+    
+        .hangimg :nth-child(4) {
+            margin-left: 45px;
+        }
+    
+        .hangimg :nth-child(5) {
+            margin-left: 41px;
+        }
+}
+
+/* ==================ft========== */
+.footer
+{
+    display: flex;
+    height: 313px;
+
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+
+}
+.wide
+{
+    width: 100%;
+}
+.wide .row
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.wide .row .col
+{
+width: 25%;
+}
+.wide .row .c2
+{
+padding-left: 106px;
+}
+.wide .row .c3
+{
+    padding-left: 113px;
+}
+.wide .row .c4
+{
+    padding-left: 119px;
+}
+.footer .icon
+{
+        margin-top: 21px;
+            font-size: 13px;
+}
+.footer h2
+{
+    font-size: 18px;
+padding: 9px 0 19px 0;
+    color: black;
+    letter-spacing: 0.6px;
+}
+.footer h3{
+    padding-bottom: 15px;
+    font-size: 13.6px;
+    color: rgb(186, 186, 186);
+
+}
+.footer .c1 :nth-child(3)
+{
+    line-height: 9px;
+}
+.footer a :hover
+{
+    color: rgb(12, 168, 201);
+}
+
+.footer .fa1 i
+{
+    
+    color: rgb(12, 168, 201);
+    margin-right: 23px;
+}
+
+
+.footer .fa1 a
+{
+    display: flex;
+
+}
+.footer .container .icon a i {
+    color: rgb(186, 186, 186);
+    margin-right: 20px;
+
+
+}
+
+.footer .container .icon a i:hover {
+    color: rgb(12, 168, 201);
+}
+/* ======== */
+.design .container
+{
+    height: 70px;
+
+}
+
+.design .dleft
+{
+    width: 50%;
+    color: rgb(186, 186, 186);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+
+}
+.design .dleft span
+{
+color: rgb(12, 168, 201);
+}
+.design .dright
+{
+    width: 50%;
+}
+.design .dright ul
+{
+    text-align: right;
+}
+.design .dright ul img
+{
+    padding: 0 10px;
+}
