@@ -86,6 +86,12 @@ a{
     padding: 8.5px 10.14px;
  font-size: 13px;
 }
+.headers-top .topleft li .fa-phone {
+    color: rgb(12, 168, 201);
+    border: 1px solid;
+    padding: 8.5px 8.5px;
+    font-size: 13px;
+}
 .headers-top .topleft .divfind1 li i {
     color: rgb(12, 168, 201);
     border: 1px solid;
@@ -387,6 +393,10 @@ margin: 7px 42px 0 18px;
 {
 position: relative;
 }
+.slider .img .rp640
+{
+    display: none;
+}
 .slider .img .container
 {
     position: absolute;
@@ -402,15 +412,15 @@ position: relative;
 }
 .slider .img .container p
 {
-    color: rgb(186, 186, 186);
-    padding: 2.8% 0 7.0% 0;
+    color: #8f8f8f;
+    padding: 2.5% 0 7.0% 0;
     letter-spacing: 1.2px;
     font-weight: bold;
 }
 .slider .img .container h4 a
 {
     color: black;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
     border-bottom: 2px black solid;
 
 }
@@ -428,7 +438,7 @@ color: rgb(12, 168, 201);
 .gird
 {
     margin: auto;
-    padding: 60px 0;
+    padding: 58px 0;
 }
 .gird .free
 {
@@ -489,7 +499,6 @@ color: rgb(12, 168, 201);
 }
 .sale .beauty1 .ta
 {
-    
     position: absolute;
     top: 62%;
     left: 25%;
@@ -633,6 +642,8 @@ letter-spacing: 0.6px;
         z-index: -1;
         margin-top: -31px;
         letter-spacing: 6px;
+ 
+
 }
 .topsl h2
 {
@@ -739,8 +750,8 @@ color: rgb(12, 168, 201);
 {
     display: flex;
     width: 100%; 
-        padding-top: 33px;
-        padding-left: 13px;
+        padding-top: 35px;
+        padding-left: 27px;
 
 }
 
@@ -820,7 +831,7 @@ color: rgb(12, 168, 201);
 }
 @media (min-width: 1366px) {
 .new .container {
-        width: 1170px;
+        width: 1200px;
     }
 
     .taq {
@@ -828,7 +839,7 @@ color: rgb(12, 168, 201);
     }
     .container-1
     {
-        width: 1170px;
+        width: 1200px;
     }
 }
 @media (max-width: 1366px) {
@@ -1002,7 +1013,7 @@ padding: 9px 0 19px 0;
 .footer h3{
     padding-bottom: 15px;
     font-size: 13.6px;
-    color: rgb(186, 186, 186);
+    color:#8f8f8f;
 
 }
 .footer .c1 :nth-child(3)

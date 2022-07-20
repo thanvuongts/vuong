@@ -9,6 +9,8 @@ $(document).ready(function(){
                 breakpoint: 460,
                 settings:{
                   arrows: false,
+                  autoplay: true,
+                   autoplaySpeed:2000,
                 }
               }
             ]
@@ -56,6 +58,8 @@ $(document).ready(function(){
            slidesToShow: 3,
            slidesToScroll: 3,
            arrows: false,
+           autoplay: true,
+           autoplaySpeed:2000,
            responsive:
            [
             {
